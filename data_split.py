@@ -15,6 +15,7 @@ parser.add_argument("--num_train", default=0, type=int, dest="num_train")
 parser.add_argument("--num_val", default=0, type=int, dest="num_val")
 parser.add_argument("--num_test", default=0, type=int, dest="num_test")
 parser.add_argument("--new_data_dir", default="./data/BSR/BSDS500/data/images", type=str, dest="new_data_dir")
+args = parser.parse_args()
 
 ## 트레이닝 파라메터 설정하기
 
