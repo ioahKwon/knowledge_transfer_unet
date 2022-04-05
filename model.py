@@ -222,9 +222,3 @@ class Hourglass(nn.Module):
             x = x + self.fc(dec1_1)
 
         return x
-
-
-
-© 2022 GitHub, Inc.
-Terms
-Priv
